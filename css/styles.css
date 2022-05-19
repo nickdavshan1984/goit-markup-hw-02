@@ -1,0 +1,34 @@
+/* h1 {
+    color: red;
+}
+h1::after {
+    display: block;
+    content: '';
+    border-bottom: 1px solid #000;
+    margin-top: 50px;
+} */
+body {
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+}
+
+.header-nav-logo-1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.header-nav-logo-2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.index-header-navigation a {
+    text-decoration: none;
+}
