@@ -8,10 +8,17 @@ h1::after {
     margin-top: 50px;
 } */
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
 }
 
-.header-nav-logo-1 {
+/* index header navigation */
+.index-header-navigation {
+    display: flex;
+}
+.index-header-navigation-logo-1 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -20,7 +27,7 @@ body {
     letter-spacing: 0.03em;
     color: #2196F3;
 }
-.header-nav-logo-2 {
+.index-header-navigation-logo-2 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -31,4 +38,74 @@ body {
 }
 .index-header-navigation a {
     text-decoration: none;
+}
+.index-header-navigation-aboutUs  {
+    display: flex;
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+}
+.index-header-navigation-aboutUs a {
+    color: #212121;
+}
+.index-header-navigation-aboutUs a:hover {
+   color: #2196F3;
+}
+.index-header-navigation-contacts {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+}
+.index-header-navigation-contacts a {
+    color: #757575;
+    text-decoration: none;
+}
+.index-header-navigation-contacts a:hover {
+    color: #2196F3;
+}
+/* index hero section */
+.index-header-hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #2F303A;
+}
+.index-header-hero h1 {
+    margin: 0 auto;
+    padding: 200px 452px 30px 452px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.index-header-hero button {
+    margin: 0 auto;
+    margin-bottom: 200px;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
 }
